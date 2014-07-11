@@ -1,0 +1,302 @@
+
+/* Global Page Styles
+*************************************************/
+html { 
+  background: url(../images/background.jpg) repeat-x left top; 
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	text-align: center;
+	color: #a53131;
+}
+	a:hover {
+		color: #df4343;
+	}
+
+.main-logo {
+	width: 100%;
+}
+
+.main-wrapper {
+	width: 90%;
+	min-width: 320px;
+	margin: 1.250em auto;
+	background: rgba(255, 255, 255, 0.9);
+	border-radius: 0.938em;
+}
+
+.diamondplate {
+	height: 14.375em;
+	width: 100%;
+	background: url(../images/diamondplate.jpg) repeat center center;
+	border-top-right-radius: 0.938em;
+    border-top-left-radius: 0.938em;
+    box-shadow: 0 0.313em 0.625em rgba(0,0,0,0.3);
+}
+
+.main-nav li {
+	font-family: 'Sancreek', cursive;
+	margin: 0.313em 0 0 0;
+}
+
+.main-nav a {
+	display: block;
+	font-size: 1.5em;
+	color: #930000;
+}
+	.main-nav a:hover {
+		color: #df4343;
+	}
+
+a.selected {
+	color: #df4343;
+}
+
+h2 {
+	font-family: 'Ultra', serif;
+}
+
+.indextext {
+	text-align: center;
+	padding: 0 1em;
+}
+
+.stylist li {
+	display: inline-block;
+	padding: 0 1.250em;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+footer {
+	background-color: #930000;
+	color: #999999;
+	width: 100%;
+	min-height: 150px;
+	padding: 0.063em;
+	font-size: .85em;
+	text-align: center;
+    border-bottom-right-radius: 0.938em;
+    border-bottom-left-radius: 0.938em;
+}
+
+.plug {
+	text-align: left;
+	color: white;
+	font-size: .75em;
+}
+
+/* About Us Page Styles
+*************************************************/
+.about {
+	margin: 1.250em;
+}
+
+video {
+    width: 100%;
+}
+
+/* Service Page Styles
+*************************************************/
+.services {
+	max-width: 37.500em;
+	margin: 0 auto 1.250em;
+	padding: 0 1.250em;
+}
+
+.services h3 {
+	display: inline;
+	margin: 0 auto;
+}
+
+.services h2 {
+	margin-bottom: 25px;
+}
+
+.services p {
+	display: inline;
+	margin: 0 auto;
+}
+
+.price {
+	float: right;
+}
+
+hr {
+    border: 0;
+    border-bottom: 0.063em dashed #ccc;
+    background: #999;
+}
+
+/* Product Page Styles
+*************************************************/
+.promo {
+	border: 0.125em dashed black;
+	text-align: center;
+	max-width: 75%;
+	padding: 0 1em;
+	margin: 0 auto;
+	overflow: inherit;
+}
+
+.products {
+	min-height: 30em;
+}
+
+.products img {
+	max-width: 20%;
+}
+
+/* Photo Page Styles
+*************************************************/
+.photos ol {
+	display: none;
+}
+
+.photos .flexslider {
+	padding: 0 .05em;
+}
+
+
+/* Stylist Page Styles
+*************************************************/
+.profile {
+	width: 75%;
+}
+
+.profile2 {
+	width: 30%;
+}
+
+.stylistfix {
+	min-height: 35em;
+}
+
+
+
+/* Contact Page Styles
+*************************************************/
+#map_canvas{
+    width:100%;
+    height:400px;
+}
+
+
+	/* Contact Form Styles */
+	label {
+	    display: block;
+	    margin-top:1.250em;
+	    letter-spacing:0.125em;
+	}
+
+	input, textarea {
+		width:21.875em;
+		height:1.688em;
+		background: #DF6868;
+		color: #030303;
+		border:0.063em solid #dedede;
+		padding:0.625em;
+		margin-top:0.188em;
+		font-size:0.9em;
+	    border-radius:0.313em;
+	}
+
+	textarea {
+		height:13.313em;
+	}
+
+	input:focus, textarea:focus {
+	    border:0.063em solid #930000;
+	}
+
+	#submit {
+	    width:7.938em;
+	    height:2.375em;
+	    background-color: #575757;
+	    color: #030303;
+	    border:none;
+	    margin: 1.250em auto;
+	    cursor:pointer;
+
+	}
+		#submit:hover {
+		    opacity:.9;
+		}
+
+	.social {
+		display: inline-block;
+	}
+
+	.social a {
+		min-height: 30px;
+		background-repeat: no-repeat;
+		background-size: 30px 30px;
+		padding: 5px 0 0 40px;
+		margin: 0 0 20px;
+		float: left;
+	}
+
+	.social li.facebook a {
+		background-image: url(../images/facebook.png);
+	}
+
+	.social li.instagram a {
+		background-image: url(../images/instagram.png);
+	}
+
+	.social li.email a {
+		background-image: url(../images/email.png);
+	}
+
+	.social li.phone a {
+		background-image: url(../images/phone.png);
+	}
+
+/* Tablet and Desktop 
+*************************************************/
+@media screen and (min-width: 768px) {   
+
+	/* Global Page Styles */
+	.main-logo, 
+	.main-nav,
+	.main-nav li {
+		display: inline-block;
+	}
+
+	.main-nav a {
+	padding: 0 1.250em;
+	}
+
+	.main-nav ul {
+		text-align: center;
+		margin: .600em;
+	}
+
+	.main-wrapper {
+		max-width: 54.375em;
+
+	}
+
+	.about img {
+		float: left;
+		padding: 0.625em;
+	}
+
+	.about p {
+		padding: 0.375em 0 0 0;
+	}
+
+	/* Stylist Page Styles */
+	.profile {
+		width: 35%;
+	}
+
+
+
+
+
+
+}
